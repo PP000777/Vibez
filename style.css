@@ -1,0 +1,138 @@
+/* Estilo geral */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #FFFFFF;
+}
+
+/* Barra de cima */
+.barra-de-cima {
+    background-color: #1f1f1f;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+.barra-de-cima input{
+    margin-left: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#perfil::before {
+    content: "\f007"; /* ícone de perfil */
+    font-family: "FontAwesome";
+}
+
+#config::before {
+    content: "\f013"; /* ícone de configurações */
+    font-family: "FontAwesome";
+}
+
+/* Barra lateral esquerda */
+.barra-esquerda {
+    background-color: #1f1f1f;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.barra-esquerda ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.barra-esquerda ul li {
+    margin-bottom: 30px;
+}
+
+.barra-esquerda ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 24px;
+}
+/* Barra de Pesquisa */
+.caixa-pesquisa {
+    width: 100%;
+    max-width: 600px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+    background-color: #3A3A3A;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+
+/* Botões de categorias */
+.categorias {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.categorias button {
+    background-color: #3A3A3A;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.categorias button:hover {
+    background-color: #5A5A5A;
+}
+
+/* Seção de recomendações e lançamentos */
+.secao {
+    margin-left: 100px;
+    padding: 20px;
+}
+
+.secao h2 {
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.album-card {
+    display: inline-block;
+    background-color: #1f1f1f;
+    width: 150px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.album-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.album-card p {
+    color: #9A9A9A;
+    font-size: 14px;
+}
